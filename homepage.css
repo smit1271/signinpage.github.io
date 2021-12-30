@@ -1,0 +1,36 @@
+nav {
+    background-color: #e64a19;
+  }
+  
+  nav ul {
+    padding: 20;
+    margin: 40;
+    list-style:none+;
+    position: static;
+  }
+  
+  nav ul li {
+    display:inline-block ;
+    background-color: #e64a19;
+  }
+  
+  nav a {
+    display: block;
+    padding: 0 320px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+  }
+
+
+
+  nav ul li:hover > ul {
+    display: inherit;
+  }
+  
